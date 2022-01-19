@@ -1,6 +1,5 @@
 using BooksApi.Services;
 using BooksApi.Models;
-using System.Configuration;
 using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,8 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 // requires using Microsoft.Extensions.Options
+ConfigurationManager configuration = builder.Configuration;
 builder.Services.Configure<BookstoreDatabaseSettings>(
-	Configuration.GetSection(nameof(BookstoreDatabaseSettings)));
+    configuration.GetSection(nameof(BookstoreDatabaseSettings)));
 
 builder.Services.AddSingleton<IBookstoreDatabaseSettings>(sp =>
 	sp.GetRequiredService<IOptions<BookstoreDatabaseSettings>>().Value);
