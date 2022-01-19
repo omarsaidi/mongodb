@@ -1,0 +1,7 @@
+/home/omar/Documents/mongodb/hello-world/obj/Debug/net6.0/BooksApi.csproj.AssemblyReference.cache
+/home/omar/Documents/mongodb/hello-world/obj/Debug/net6.0/BooksApi.GeneratedMSBuildEditorConfig.editorconfig
+/home/omar/Documents/mongodb/hello-world/obj/Debug/net6.0/BooksApi.AssemblyInfoInputs.cache
+/home/omar/Documents/mongodb/hello-world/obj/Debug/net6.0/BooksApi.AssemblyInfo.cs
+/home/omar/Documents/mongodb/hello-world/obj/Debug/net6.0/BooksApi.csproj.CoreCompileInputs.cache
+/home/omar/Documents/mongodb/hello-world/obj/Debug/net6.0/BooksApi.MvcApplicationPartsAssemblyInfo.cs
+/home/omar/Documents/mongodb/hello-world/obj/Debug/net6.0/BooksApi.MvcApplicationPartsAssemblyInfo.cache
